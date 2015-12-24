@@ -1,0 +1,10 @@
+{
+  "AppSettings": {
+    "SiteTitle": "PeopleFixWebApp"
+  },
+  "Data": {
+    "DefaultConnection": {
+      "ConnectionString": "Server=(localdb)\\mssqllocaldb;Database=aspnet5-PeopleFixWebApp-6423d740-2232-415b-b5e6-026e4e593fb4;Trusted_Connection=True;MultipleActiveResultSets=true"
+    }
+  }
+}
