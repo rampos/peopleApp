@@ -35,7 +35,11 @@
     },
 
     "frameworks": {
-        "dnx451": { },
+      "dnx451": {
+        "dependencies": {
+          "Microsoft.Office365.OutlookServices-V2.0": "2.0.1"
+        }
+      },
         "dnxcore50": { }
     },
 

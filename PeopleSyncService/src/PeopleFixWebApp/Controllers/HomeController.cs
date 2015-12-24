@@ -1,14 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿
 using Microsoft.AspNet.Mvc;
+
 
 namespace PeopleFixWebApp.Controllers
 {
     [RequireHttps]
     public class HomeController : Controller
     {
+        private static string[] scopes = { "https://outlook.office.com/mail.read" };
         public IActionResult Index()
         {
             return View();
@@ -32,5 +31,9 @@ namespace PeopleFixWebApp.Controllers
         {
             return View("~/Views/Shared/Error.cshtml");
         }
+
+        
+
+      
     }
 }
