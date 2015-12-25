@@ -1,6 +1,7 @@
 ﻿
 using Microsoft.AspNet.Mvc;
-
+using PeopleFixWebApp.Connectors;
+using System.Threading.Tasks;
 
 namespace PeopleFixWebApp.Controllers
 {
@@ -32,7 +33,11 @@ namespace PeopleFixWebApp.Controllers
             return View("~/Views/Shared/Error.cshtml");
         }
 
-        
+        public async Task<string> Test()
+        {
+            MicrosoftConnector msConnector = new MicrosoftConnector();
+            return await msConnector.GetContactsAsync();
+        }
 
       
     }
