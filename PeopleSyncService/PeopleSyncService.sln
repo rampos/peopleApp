@@ -10,8 +10,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		global.json = global.json
 	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "PeopleSyncService", "src\PeopleSyncService\PeopleSyncService.xproj", "{0AA3E92A-C2B5-4A74-BAE9-3FE65812DB28}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{CE0B2E5A-A8DF-4856-8E7F-7A7E24BF2AE5}"
 	ProjectSection(SolutionItems) = preProject
 		PublishScripts\AzureVMPublishModule.psm1 = PublishScripts\AzureVMPublishModule.psm1
@@ -25,7 +23,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configura
 		PublishScripts\Configurations\PeopleSyncService-WAWS-dev.json = PublishScripts\Configurations\PeopleSyncService-WAWS-dev.json
 	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "PeopleFixWebApp", "src\PeopleFixWebApp\PeopleFixWebApp.xproj", "{22D402D9-6FF3-4CBC-BCCC-E2A16C7EA485}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ContactsClutter", "src\ContactsClutter\ContactsClutter.xproj", "{972E8AC7-E289-4CF4-96F7-BF6931D76D31}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,21 +31,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0AA3E92A-C2B5-4A74-BAE9-3FE65812DB28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0AA3E92A-C2B5-4A74-BAE9-3FE65812DB28}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0AA3E92A-C2B5-4A74-BAE9-3FE65812DB28}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0AA3E92A-C2B5-4A74-BAE9-3FE65812DB28}.Release|Any CPU.Build.0 = Release|Any CPU
-		{22D402D9-6FF3-4CBC-BCCC-E2A16C7EA485}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{22D402D9-6FF3-4CBC-BCCC-E2A16C7EA485}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{22D402D9-6FF3-4CBC-BCCC-E2A16C7EA485}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{22D402D9-6FF3-4CBC-BCCC-E2A16C7EA485}.Release|Any CPU.Build.0 = Release|Any CPU
+		{972E8AC7-E289-4CF4-96F7-BF6931D76D31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{972E8AC7-E289-4CF4-96F7-BF6931D76D31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{972E8AC7-E289-4CF4-96F7-BF6931D76D31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{972E8AC7-E289-4CF4-96F7-BF6931D76D31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{0AA3E92A-C2B5-4A74-BAE9-3FE65812DB28} = {D55CF3ED-4F8D-4464-875F-06D58D920210}
 		{EC517729-316F-47F9-ADA0-24FC1939B268} = {CE0B2E5A-A8DF-4856-8E7F-7A7E24BF2AE5}
-		{22D402D9-6FF3-4CBC-BCCC-E2A16C7EA485} = {D55CF3ED-4F8D-4464-875F-06D58D920210}
+		{972E8AC7-E289-4CF4-96F7-BF6931D76D31} = {D55CF3ED-4F8D-4464-875F-06D58D920210}
 	EndGlobalSection
 EndGlobal
