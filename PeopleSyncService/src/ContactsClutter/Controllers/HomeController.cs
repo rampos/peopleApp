@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNet.Mvc;
 using ContactsClutter.Connectors;
+using ContactsClutter.Models;
 
 namespace ContactsClutter.Controllers
 {
@@ -33,10 +34,16 @@ namespace ContactsClutter.Controllers
             return View();
         }
 
-        public async Task<string> Test(string token)
+        public async Task<List<Contact>> Test(string token)
         {
             MicrosoftConnector msConnector = new MicrosoftConnector();
             return await msConnector.GetContactsAsync(token);
+        }
+
+        public async Task<int> Count()
+        {
+            MicrosoftConnector msConnector = new MicrosoftConnector();
+            return await msConnector.GetContactCount();
         }
     }
 }
